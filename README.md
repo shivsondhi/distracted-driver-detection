@@ -42,5 +42,5 @@ Before you run the program, there is a list of plugs that need to be set at the 
 While training the single models (step 4), I trained ResNet50, Inceptionv3 and Xception in addition to the simple ConvNet and VGG16. These deeper models did not do very well however and I decided to stick with the two I mentioned. All models apart from the simple ConvNet were transfer learned from the Imagenet weight files available in Keras.
 
 After training I found that VGG16 was much more confident and accurate than the simple ConvNet despite similar accuracy (see Plots 1 and 2). Finally, my ensemble showed better performance with all VGG16 arms - resulting in better pseudo-labels and consequently better final results. Note that you can use the main-sets to train the ensemble in step 7. Since the component models are frozen anyway, it will not make too much of a difference. In that case, there is no need for pseudo-labeling either.
-![Loss vs Accuracy for the Simple ConvNet](simpleCNN-plot.png)
-![Loss vs Accuracy for the VGG16](VGG16-plot.png)
+![Loss vs Accuracy for the Simple ConvNet](images/simpleCNN-plot.png)
+![Loss vs Accuracy for the VGG16](images/VGG16-plot.png)
