@@ -2,7 +2,7 @@
 Classifying dashcam images to detect cases of distracted and safe driving.
 
 # Environment
-The library dependencies can be found in `requirements.txt`. All packages can be installed using `pip install <package_name>`. I have used Keras with the TensorFlow backend, and Arun Ponnusamy's repository `cvlib` which is available [here](https://github.com/arunponnusamy/cvlib).
+The library dependencies can be found in `requirements.txt`. All packages can be installed using `pip install requirements.txt`. I have used Keras with the TensorFlow backend, and Arun Ponnusamy's repository `cvlib` which is available [here](https://github.com/arunponnusamy/cvlib).
 
 # Files
 There are 4 files - `distracted_driver_detection.py`(main file); `models.py`, which contains all the deep learning model definitions; `generators_and_training.py`, which contains all the data generators and training functions; and finally `data_utilities.py`, which contains several utility functions mostly dealing with file operations.
